@@ -7,9 +7,9 @@
 * `Tutorial-2`: https://sysout.ru/spring-boot-rest-api
 * `Repo`: https://github.com/myluckagain/sysout/tree/master/spring-boot-restassured
 
-![Screenshot-01](screenshot_01.png)
+![Screenshot-01](img/screenshot_01.png)
 
-![Screenshot-02](screenshot_02.png)
+![Screenshot-02](img/screenshot_02.png)
 
 
 ---
@@ -17,6 +17,24 @@
 * [REST Assured как инструмент тестирования API](https://medium.com/effective-developers/rest-assured-как-инструмент-тестирования-api-216b2d4e2d2c)
 * [РУКОВОДСТВО по тестированию REST API с использованием REST Assured](https://www.loadview-testing.com/ru/blog/руководство-по-тестированию-автомат)
 
+* [Rest Assured Bearer authentication](https://dtuto.com/questions/1544/rest-assured-bearer-authentication)
+  ```java
+  Response response =
+      given()
+          .headers(
+              "Authorization",
+              "Bearer " + bearerToken,
+              "Content-Type",
+              ContentType.JSON,
+              "Accept",
+              ContentType.JSON)
+          .when()
+          .get(url)
+          .then()
+          .contentType(ContentType.JSON)
+          .extract()
+          .response();
+  ```
 
 ---
 
@@ -25,6 +43,6 @@
     ```shell
     gradle init
     ```
-    ![Screenshot-03.jpg](screenshot_03.jpg)
+    ![Screenshot-03.jpg](img/screenshot_03.jpg)
   * `Step 2`: Remove from project’s root directory containing the **pom.xml**
 * [REST Assured Documentation](https://github.com/rest-assured/rest-assured)
