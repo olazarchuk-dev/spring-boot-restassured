@@ -7,6 +7,10 @@
 * `Tutorial-2`: https://sysout.ru/spring-boot-rest-api
 * `Repo`: https://github.com/myluckagain/sysout/tree/master/spring-boot-restassured
 
+![Screenshot-01](screenshot_01.png)
+
+![Screenshot-02](screenshot_02.png)
+
 
 ---
 
