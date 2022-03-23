@@ -8,10 +8,7 @@ group = 'com.springbootrest'
 version = '0.0.1-SNAPSHOT'
 
 repositories {
-    mavenLocal()
-    maven {
-        url = uri('https://repo.maven.apache.org/maven2/')
-    }
+    mavenCentral()
 }
 
 dependencies {
