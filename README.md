@@ -16,3 +16,14 @@
 
 * [REST Assured как инструмент тестирования API](https://medium.com/effective-developers/rest-assured-как-инструмент-тестирования-api-216b2d4e2d2c)
 * [РУКОВОДСТВО по тестированию REST API с использованием REST Assured](https://www.loadview-testing.com/ru/blog/руководство-по-тестированию-автомат)
+
+
+---
+
+* [Convert Maven project to Gradle project](https://medium.com/@jayanisumudini/convert-maven-project-to-gradle-project-d1a829d7637f)
+  * `Step 1`: I run the gradle init command into project’s root directory containing the **pom.xml**
+    ```shell
+    gradle init
+    ```
+    ![Screenshot-03.jpg](screenshot_03.jpg)
+  * `Step 2`: Remove from project’s root directory containing the **pom.xml**
