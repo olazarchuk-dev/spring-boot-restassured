@@ -27,3 +27,4 @@
     ```
     ![Screenshot-03.jpg](screenshot_03.jpg)
   * `Step 2`: Remove from project’s root directory containing the **pom.xml**
+* [REST Assured Documentation](https://github.com/rest-assured/rest-assured)
